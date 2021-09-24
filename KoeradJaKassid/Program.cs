@@ -8,11 +8,11 @@ namespace KoeradJaKassid
         {
             Console.WriteLine("Are you more like a cat or a dog?");
             string userChoice = Convert.ToString(Console.ReadLine().ToLower());
-            if (userChoice == "CAT")
+            if (userChoice == "cat")
             {
                 Console.WriteLine("You are a home-lover");
             }
-            else if (userChoice == "DOG")
+            else if (userChoice == "dog")
             {
                 Console.WriteLine("You are a partygoer.");
             }
